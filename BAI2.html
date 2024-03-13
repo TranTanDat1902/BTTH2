@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Đóng góp ý kiến sản phẩm</title>
+    <style>
+        .container {
+            width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: url("https://giaydantuonganhtuan.vn/images/products/2014/07/20/original/nen-trang-hoa-nhieu-mau-sac-1405860095.jpg");
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .input-group {
+            margin-bottom: 10px;
+        }
+
+        .input-group label {
+            display: inline-block;
+            width: 120px;
+            border: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .input-group input,
+        .input-group select,
+        .input-group textarea {
+            width: 350px;
+            padding: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .btn {
+            background-color: #1286c9;
+            color: white;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        body {
+            background: url("https://simerp.io/wp-content/uploads/2022/02/kiem-tra-bang-khao-sat-khach-hang.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        ::placeholder {
+            display: block;
+            margin-bottom: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Đóng góp ý kiến sản phẩm</h1>
+        <p>Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu</p>
+        <p>Các ý kiến đóng nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thời gian và địa điểm (nếu có).</p>
+        <form action="#" method="post">
+            <div class="input-group">
+                <input placeholder="Họ và tên" required>
+            </div>
+            <div class="input-group">
+                <input placeholder="Mã thẻ" required>
+            </div>
+            <div class="input-group">
+                <input placeholder="Số điện thoại" required>
+            </div>
+            <div class="input-group">
+                <input placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <select id="input-customer-type" required>
+                    <option value="">Chọn loại khách hàng </option>
+                    <option value="vip">VIP</option>
+                    <option value="regular">Regular</option>
+                    <option value="new">New</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <input placeholder="Mã hóa đơn" required>
+            </div>
+            <div class="input-group">
+                <textarea id="message" name="message" rows="5" placeholder="Nhập chi tiết mô tả"></textarea>
+            </div>
+            <button class="btn" type="submit">Gửi ý kiến</button>
+        </form>
+    </div>
+</body>
+</html>
